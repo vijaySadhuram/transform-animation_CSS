@@ -1,0 +1,32 @@
+body{
+margin: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    /* background-color: blue; */
+  
+    border: 2px solid gray;
+    background-color: beige;
+    margin: 2vmax;
+    transition-property: background-color;
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+
+}
+#box1{
+/* background-color: blue;
+color: red; */
+animation: myanimation;
+animation-duration: 2s;
+animation-iteration-count: 5;
+}
+@keyframes myanimation {
+    from{
+        
+        transform:rotateY(45deg);
+           }
+           to{
+               background-color: red;
+           }
+}
